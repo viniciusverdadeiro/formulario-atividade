@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #E0F2FE;
+    color: rgb(20, 20, 20);
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2937d1;
+    color: white;
+    padding: 20px;
+}
+
+.topo h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu span {
+    font-weight: bold;
+}
+
+main {
+    padding-left: 33%;
+    padding-right: 33%;
+    padding-top: 2%;
+    background-color: #E0F2FE;
+}
+
+#formulario {
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background-color: #fffefe;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 420px;
+}
+
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #010102;
+  border-radius: 8px;
+}
+
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid #2563eb;
+}
+
+button {
+  background-color: #ff0000;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  padding: 12px;
+}
+#prefere{}
+footer {
+    background-color: #2937d1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
